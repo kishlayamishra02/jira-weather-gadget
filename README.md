@@ -1,6 +1,4 @@
-Sure! Here's your complete, **all-in-one `README.md`** in a single code block — no cuts, no interruptions:
 
-````markdown
 # ☁️ Jira Weather Gadget — Forge Dashboard App
 
 A smart Forge-based Jira dashboard gadget that displays real‑time weather data based on a user‑configured city and country code.
