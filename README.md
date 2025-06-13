@@ -75,7 +75,7 @@ forge tunnel
 
 ## 📸 Screenshots
 
-*Add dashboard screenshots here once captured.*
+*Will be Added Soon.*
 
 ---
 
@@ -105,10 +105,3 @@ Built for the **Atlassian Forge Quest Hackathon — Apprentice Level** to s
 
 For Forge help → [Forge Get Help](https://developer.atlassian.com/platform/forge/get-help/)
 For weather API questions → [OpenWeather Support](https://openweathermap.org/support)
-
-```
-
-✅ You can now copy this entire block into your `README.md` file directly.
-
-Let me know if you want to add badges, screenshots, or GitHub action workflows too!
-```
