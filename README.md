@@ -13,8 +13,8 @@ This Jira gadget lets teams see live weather information without leaving their d
 
 - 🌍 City and country  
 - 🌦 Weather description  
-- 🌡 Temperature and “feels like” temperature  
-- 💧 Humidity &nbsp;|&nbsp; 💨 Wind speed  
+- 🌡 Temperatur
+- 💧 Humidity 
 - 🔁 A manual **Refresh** button for instant updates  
 
 Powered by **Atlassian Forge** (UI Kit) and the [OpenWeatherMap API](https://openweathermap.org/api).
