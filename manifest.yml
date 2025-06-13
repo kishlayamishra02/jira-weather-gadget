@@ -20,7 +20,7 @@ resources:
   - key: main-resource
     path: src/frontend/index.jsx
 
-permissions:                     # ➜ add this block
+permissions:                    
   external:
     fetch:
       backend:

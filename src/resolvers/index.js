@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 
 const resolver = new Resolver();
 
-// ✅ use the ACTIVE key
-const API_KEY = '3f9931b6c4d586b39a3be40254b8c220';
+
+const API_KEY = process.env.OPENWEATHER_API_KEY;
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
-// The method name MUST match what the front‑end invokes
+
 resolver.define('getWeather', async ({ payload }) => {
-  // payload carries city & country from the front‑end
+  
   const city  = payload.city?.trim()     || 'Delhi';
   const country = payload.country?.trim() || 'IN';
   const query = `${city},${country}`;
@@ -21,7 +21,7 @@ resolver.define('getWeather', async ({ payload }) => {
     const res  = await fetch(url, { headers: { 'Accept': 'application/json' }});
     const data = await res.json();
 
-    if (!res.ok) {                       // Bad status from OpenWeather
+    if (!res.ok) {                       
       return `Error: ${data.message}`;
     }
 

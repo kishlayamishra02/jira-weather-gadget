@@ -22,7 +22,7 @@ const View = () => {
       return;
     }
 
-    // Call the backend resolver
+
     invoke("getWeather", { city, country }).then(setResult);
   }, [ctx]);
 
